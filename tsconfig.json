@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+	  "module": "commonjs",      // 使用 CommonJS 模块，适合 VS Code 插件
+	  "target": "es2020",        // 目标 ES2020，兼容性更好
+	  "outDir": "out",           // 输出目录为 out
+	  "rootDir": "src",          // 源文件目录为 src
+	  "lib": ["es2020"],         // 使用 ES2020 库
+	  "sourceMap": true,         // 生成源映射
+	  "strict": true             // 保持严格检查
+	},
+	"exclude": ["node_modules", ".vscode-test"]  // 排除不必要的文件夹
+  }
