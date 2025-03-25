@@ -2,8 +2,9 @@
   "name": "bibtex-generator",
   "displayName": "BibTeX Generator",
   "description": "Generate BibTeX from paper title or DOI",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "YMQ",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.98.0"
   },
